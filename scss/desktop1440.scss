@@ -1,0 +1,15 @@
+@media screen and (max-width: 1440px){
+    #more-info{
+        justify-content: space-around;
+    }
+    #more-info .more-info-items:last-child{
+        height: 375px;
+        margin: 0;
+    }
+    #more-info .more-info-items:first-child{
+        margin-left: 0;
+    }
+    #more-info .more-info-items{
+        margin: 0;
+    }
+    }

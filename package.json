@@ -1,0 +1,13 @@
+{
+  "name": "Marine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-build": "node-sass-chokidar -w ./scss/main.scss -o ./scss --usePolling --polling-interval 1000 --output-style expanded"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

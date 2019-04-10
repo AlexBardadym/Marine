@@ -1,0 +1,92 @@
+@media screen and (max-width: 1366px){
+    #big-main{
+        h1{
+            font-size:55px;
+        }
+    }
+    #big-main .right-arrow {
+        left: calc(100% - 64px);}
+    #activities{
+        align-items: flex-start;
+    }
+    #button-section button div{
+        width: 95px;
+    }
+    #more-info{
+        justify-content: space-around;
+        padding:0 10px 25px 10px;
+    }
+    #more-info .more-info-items:last-child{
+        height: 375px;
+        margin: 0;
+    }
+    #more-info .more-info-items:first-child{
+        margin-left: 0;
+    }
+    #more-info .more-info-items{
+        margin: 0;
+    }
+    #blue-section{
+        flex-wrap: wrap;
+    height: auto;
+    }
+    #our-team .container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        div:first-child {
+            margin-left: 0;
+        }
+        div:last-child {
+            margin-right: 0;
+        }
+    }
+    #technologis {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        img:first-child {
+            margin-left: 0;
+        }
+        img:last-child {
+            margin-right: 0;
+        }
+    }
+    #blue-section2{
+        .blue-section2-square{
+            margin-left: 0;
+            .blue-section2-triangle{
+                left: 119px;
+            }
+        }
+        #blue-section2 p:last-child {
+            margin-right: 0;
+        }
+        .blue-section-text{
+            width: 52%;
+        }
+    }
+    #before-footer{
+        height: auto;
+        flex-wrap: wrap;
+        padding: 0 10px 10px 10px;
+        justify-content: space-around;
+        
+        .before-footer-items{
+            margin-right: 10px;
+            width: 22.3%;
+            .block-with-border{
+                width: auto;
+            }
+            select{
+                width: -webkit-fill-available;
+            }
+        }
+        div:first-child{
+            margin-left: 0;
+        }
+        div:last-child{
+            margin-right: 0;
+        }
+    }
+    }

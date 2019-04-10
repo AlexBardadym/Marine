@@ -1,0 +1,147 @@
+@media screen and (max-width: 768px){
+    header .header-contacts{
+        margin-right: 3%;
+        width: 305px;
+        i{
+            margin: 2px;
+        }
+    }
+    header .header-logo {
+        margin-left: 3%;
+    span {
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    }
+    #menu .menu {
+        margin-left: 3%;
+    }
+    #menu .search{
+        margin-right: 3%;
+    }
+    #big-main #hidden-search{
+        left: 97%;
+    }
+    #big-main h1 {
+        font-size: 38px;
+    }
+    #big-main{
+        height: 390px;
+        justify-content: space-around;
+        #hidden-search{
+            top: 0;
+            .triangle{
+                top: -13px;
+            }
+        }
+        #hidden-search .search-input{
+            width: 120px;
+        }
+        img{
+            margin: 0;
+        }
+        .left-arrow, .right-arrow{
+            width: 45px;
+            height: 45px;
+            top: 163px;
+            img{
+                margin: 9px 0 0 13px;
+            }
+        }
+        .right-arrow{
+            width: 45px;
+            height: 45px;
+            left: calc(100% - 46px);
+            img{
+                margin: 9px 0 0 16px; 
+            }
+        }
+    }
+    #activities{
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-around;
+        padding-bottom:25px;
+        > div:first-child {
+            margin-left: 0;
+        }
+        > div:last-child {
+            margin-right: 0;
+        }
+        .item{
+            // margin: 0 5px 0 5px;
+            width: 45%;
+            height: auto;
+        }
+    }
+    #quote{
+        padding: 15px 3% 15px 3%;
+        height: auto;
+    }
+    #button-section{
+        height: auto;
+        padding: 15px 0;
+        div{
+            margin-left: 3%;
+            font-size: 20px;
+        }
+        button{
+            margin:0 3% 0 15px;
+            height: 45px;
+            width: 150px;
+        }
+    } 
+    #more-info .more-info-items p{
+        text-align: center;
+    }
+    #our-team .container .our-team-items{
+        width: 35%;
+    }
+    #our-team .container .our-team-items .line{
+        width: 80%;
+        margin: 0 10% 0 10%;
+    }
+    #our-team h2{
+        padding: 30px 0 30px 0;
+    }
+    #technologis{
+        align-items: baseline;
+    }
+    #blue-section2 p:last-child{
+        margin: 0;
+    }
+    #blue-section2 .blue-section-text{
+        font-size: 14px;
+    }
+    #blue-section2 .italian-text{
+        font-size: 12px;
+    }
+    #blue-section .right-bar{
+        margin-bottom: 5px;
+    }
+    #before-footer .before-footer-items{
+        width: 40%;
+        margin-right: 0;
+    }
+    #accordeon-first{
+        border-bottom: 1px solid #658190;
+    }
+    #more-info .more-info-items:first-child div .description{
+        padding-left: 15px;
+    }
+    #contact-us {
+        height: 368px;
+        h2{
+            padding: 20px 0;
+        }
+    } 
+    footer{
+        height: 45px;
+        padding: 0;
+        text-align: center;
+        div{
+            margin: 0;
+        }
+    }
+    
+}

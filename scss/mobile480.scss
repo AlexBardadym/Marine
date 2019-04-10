@@ -1,0 +1,118 @@
+@media screen and (max-width: 480px){
+    header{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px 0;
+        height: auto;
+        .header-contacts{
+            width: 95%;
+            text-align: center;
+            margin-right: 0;
+        }
+    }
+    #menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px 0;
+        .menu{
+            width: 95%;
+            margin-left: 0px;
+            display:flex;
+            justify-content: space-between;
+            span{
+                margin-right: 2px;
+            }
+        }
+    }
+    #menu .search{
+        display: none;
+    }
+    #big-main{
+        height: 250px;
+        justify-content: center;
+        .left-arrow, .right-arrow{
+            display: none;
+        }
+        div{
+            display: none;
+        }
+        img{
+            width: 40px;
+        }
+        h1{
+            font-size: 30px;
+        }
+    }
+    #activities .item{
+        width: 90%;
+    }
+    #carousel .carousel-item, #carousel .carousel-item .front-part{
+        width: 320px;
+    }
+    #button-section{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #button-section>div:first-child {
+        margin: 0 0 5px 0;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    #more-info, #blue-section .left-bar{
+        display: none;
+    }
+    #blue-section{
+        padding-bottom: 30px;
+    }
+    #our-team .container .our-team-items {
+        width: 90%;
+    }
+    #technologis{
+        display: none;
+    }
+    #contact-us .container-form{
+        align-items: center;
+        width: 95%;
+        margin-left: -47.5%;
+        input, textarea{
+            width: 90%;
+        }
+        .button-section button{
+            margin: 0 10px 0 10px;
+        }
+    }
+    #blue-section2{
+        text-align: center;
+    }
+    #blue-section2 .blue-section2-square, p:last-child{
+        display: none;
+    }
+    #blue-section2 .blue-section-text{
+        width: 95%;
+    }
+    #before-footer .before-footer-items{
+        width: 90%;
+        text-align: center;
+    }
+    #before-footer div:first-child img, #before-footer .before-footer-items .container-contacts div img{
+        position: static;
+    }
+    #before-footer .logo-and-title h3{
+        margin-left: 0;
+    }
+    #before-footer .before-footer-items .container-contacts div{
+        padding-left: 0;
+    }
+    #before-footer .before-footer-items .container-contacts div img{
+        display: block;
+        margin-left: 48%;
+    }
+    #before-footer .before-footer-items .container-contacts div{
+        margin: 10px 0;
+    }
+    #contact-us .container-form .man-icon, #contact-us .container-form .message-icon{
+        left: 85%;
+    }
+    
+}

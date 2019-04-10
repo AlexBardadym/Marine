@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marine</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400,800" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/main.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="./images/Shape_158_copy_3.png" alt="img">
+            <span>MARINE</span>
+        </div>
+        <div class="header-contacts">
+            <span>CALL US: +123-4567-12-34</span>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-skype"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-vimeo-v"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </header>
+    <section id="menu">
+        <div class="menu">
+            <span>HOME<i class="fas fa-chevron-right"></i></span>
+            <span>BLOG<i class="fas fa-chevron-right"></i></span>
+            <span>GALLERY<i class="fas fa-chevron-right"></i></span>
+            <span>PAGES<i class="fas fa-chevron-right"></i></span>
+            <span>CONTACTS<i class="fas fa-chevron-right"></i></span>
+        </div>
+        <div class="search">
+            <i class="fas fa-search"></i>
+        </div>
+    </section>
+    <section id="big-main">
+        <div id="hidden-search"><input type="text" placeholder="Search..." class="search-input">
+            <div class="square-search">
+                <div>
+                    <i class="fas fa-search"></i></div>
+            </div>
+            <div class="triangle"></div>
+        </div>
+        <div onclick="sliderLeft()" class="left-arrow"><img src="./images/left-arrow.png" alt="left-arrow"></div>
+        <img src="./images/ship_1_copy.png" alt="ship">
+        <h1>NATURAL POWER</h1>
+        <div>It is a long established fact that a reader will be</div>
+        <div onclick="sliderRight()" class="right-arrow"><img src="./images/right-arrow.png" alt="right-arrow"></div>
+    </section>
+    <section id="activities">
+        <div class="item">
+            <div class="item-square"><img src="./images/Cog_copy.png" alt="Cog"></div>
+            <p>Web development</p>
+            <div>Lorem Ipsum is simply dummy </div>
+        </div>
+        <div class="item">
+            <div class="item-square"><img src="./images/LineChart_copy.png" alt="Cog"></div>
+            <p>SEO monitoring</p>
+            <div>Lorem Ipsum is simply dummy </div>
+        </div>
+        <div class="item">
+            <div class="item-square"><img src="./images/Community_copy.png" alt="Cog"></div>
+            <p>Network Communities</p>
+            <div>Lorem Ipsum is simply dummy </div>
+        </div>
+        <div class="item">
+            <div class="item-square"><img src="./images/PieChart_copy.png" alt="Cog"></div>
+            <p>Web analytics</p>
+            <div>Lorem Ipsum is simply dummy </div>
+        </div>
+    </section>
+    <section id="quote">
+        <div>Recent Progect</div>
+        <div>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+            in some form, by injected humour</div>
+    </section>
+    <section id="carousel">
+        <div class="carousel-item">
+            <div class="front-part" style="background:#098ED1">
+                <div><img src="./images/Link_copy.png" alt="link"></div>
+                <div><img src="./images/Search_copy.png" alt="search"></div>
+            </div>
+            <div class="project-title">Project Title</div>
+            <div class="graphic-design">GRAPHIC DESIGN</div>
+            <div class="like"><i onclick="makeLike(event)" data-item-num=1 class="far fa-heart"></i>
+                <span class="like-counter">12</span>
+            </div>
+            <div class="carousel-triangle"></div>
+        </div>
+        <div class="carousel-item">
+            <div class="front-part" style="background:#098ED1">
+                <div><img src="./images/Link_copy.png" alt="link"></div>
+                <div><img src="./images/Search_copy.png" alt="search"></div>
+            </div>
+            <div class="project-title">Project Title</div>
+            <div class="graphic-design">GRAPHIC DESIGN</div>
+            <div class="like"><i onclick="makeLike(event)" data-item-num=1 class="far fa-heart"></i>
+                <span class="like-counter">12</span>
+            </div>
+            <div class="carousel-triangle"></div>
+        </div>
+        <div class="carousel-item">
+            <div class="front-part" style="background:rgb(62, 175, 231)">
+                <div><img src="./images/Link_copy.png" alt="link"></div>
+                <div><img src="./images/Search_copy.png" alt="search"></div>
+            </div>
+            <div class="project-title">Project Title</div>
+            <div class="graphic-design">GRAPHIC DESIGN</div>
+            <div class="like"><i onclick="makeLike(event)" data-item-num=2 class="far fa-heart"></i>
+                <span class="like-counter">12</span>
+            </div>
+            <div class="carousel-triangle"></div>
+        </div>
+        <div class="carousel-item">
+            <div class="front-part" style="background:rgb(7, 96, 141)">
+                <div><img src="./images/Link_copy.png" alt="link"></div>
+                <div><img src="./images/Search_copy.png" alt="search"></div>
+            </div>
+            <div class="project-title">Project Title</div>
+            <div class="graphic-design">GRAPHIC DESIGN</div>
+            <div class="like"><i onclick="makeLike(event)" data-item-num=3 class="far fa-heart"></i>
+                <span class="like-counter">12</span>
+            </div>
+            <div class="carousel-triangle"></div>
+        </div>
+        <div class="carousel-item">
+            <div class="front-part" style="background:rgb(96, 184, 228)">
+                <div><img src="./images/Link_copy.png" alt="link"></div>
+                <div><img src="./images/Search_copy.png" alt="search"></div>
+            </div>
+            <div class="project-title">Project Title</div>
+            <div class="graphic-design">GRAPHIC DESIGN</div>
+            <div class="like"><i onclick="makeLike(event)" data-item-num=4 class="far fa-heart"></i>
+                <span class="like-counter">12</span>
+            </div>
+            <div class="carousel-triangle"></div>
+        </div>
+        <div class="carousel-item">
+            <div class="front-part" style="background:rgb(9, 79, 209)">
+                <div><img src="./images/Link_copy.png" alt="link"></div>
+                <div><img src="./images/Search_copy.png" alt="search"></div>
+            </div>
+            <div class="project-title">Project Title</div>
+            <div class="graphic-design">GRAPHIC DESIGN</div>
+            <div class="like"><i onclick="makeLike(event)" data-item-num=5 class="far fa-heart"></i>
+                <span class="like-counter">12</span>
+            </div>
+            <div class="carousel-triangle"></div>
+        </div>
+        <div class="carousel-item">
+            <div class="front-part" style="background:rgb(5, 88, 129)">
+                <div><img src="./images/Link_copy.png" alt="link"></div>
+                <div><img src="./images/Search_copy.png" alt="search"></div>
+            </div>
+            <div class="project-title">Project Title</div>
+            <div class="graphic-design">GRAPHIC DESIGN</div>
+            <div class="like"><i onclick="makeLike(event)" data-item-num=6 class="far fa-heart"></i>
+                <span class="like-counter">12</span>
+            </div>
+            <div class="carousel-triangle"></div>
+        </div>
+
+    </section>
+    <section id="button-section">
+        <div><span class="blue-text">It has survived not only fiveIt</span> has survived not only five centuries, but
+            also.</div>
+        <button><img src="./images/Shape_145.png" alt="shape">
+            <div>CHECK DETAILS</div>
+        </button>
+    </section>
+    <section id="more-info">
+        <div id="accordeon-first" class="more-info-items">
+            <p>Accordeon</p>
+            <div>
+                <div class="left-bar">
+                    <div class="number">15</div>
+                    <div class="date">oct, 2017</div>
+                    <img src="./images/Camera_copy.png" alt="camera">
+                </div>
+                <img src="./images/9919.png" alt="sqr">
+                <div class="description">
+                    <div class="description-menu">
+                        <a href="#">BY ADMIN</a><img src="./images/Layer_32_copy_9.png" class="dot" alt="dot">
+                        <a href="#">WEB DESIGN</a><img src="./images/Layer_32_copy_9.png" class="dot" alt="dot">
+                        <a href="#">5 COMMENTS</a><img src="./images/Layer_32_copy_9.png" class="dot" alt="dot">
+                        <a href="#">READ MORE<span><i class="fas fa-chevron-right"></i></span></a>
+                    </div>
+                    <div class="description-blue-text">Lorem Ipsum is simply dummy text of the printing </div>
+                    <div class="description-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.</div>
+                </div>
+            </div>
+            <div>
+                <div class="left-bar">
+                    <div class="number">15</div>
+                    <div class="date">oct, 2017</div>
+                    <img src="./images/Video_copy.png" alt="video" style="height:14px">
+                </div>
+                <img src="./images/480px-JavaScript-logo.png" alt="sqr">
+                <div class="description">
+                    <div class="description-menu">
+                        <a href="#">BY ADMIN</a><img src="./images/Layer_32_copy_9.png" class="dot" alt="dot">
+                        <a href="#">WEB DESIGN</a><img src="./images/Layer_32_copy_9.png" class="dot" alt="dot">
+                        <a href="#">5 COMMENTS</a><img src="./images/Layer_32_copy_9.png" class="dot" alt="dot">
+                        <a href="#">READ MORE<span><i class="fas fa-chevron-right"></i></span></a>
+                    </div>
+                    <div class="description-blue-text">Lorem Ipsum is simply dummy text of the printing </div>
+                    <div class="description-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.</div>
+                </div>
+            </div>
+        </div>
+        <div class="more-info-items">
+            <p class="target">Recent Posts</p>
+            <div class="block closed">
+                <div class="square-plus">
+                    <img src="./images/minus.jpg" alt="minus">
+                </div>
+                <div class="rectangle"><span>There are many variations</span></div>
+            </div>
+            <div class="block closed">
+                <div class="square-plus">
+                    <img src="./images/minus.jpg" alt="minus">
+                </div>
+                <div class="rectangle"><span>Maecenas retim enim sed</span></div>
+            </div>
+            <div class="block">
+                <div class="square-plus" onclick="closeOpenSection(event)">
+                    <img src="./images/plus.jpg" alt="plus">
+                </div>
+                <div class="rectangle"><span>Integers vehicula vehicula</span></div>
+                <div class="posts-about">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry typesetting simply dummy
+                        industry.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.O f the printing and.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="more-info-items">
+            <p class="target">What People Say</p>
+            <div class="quote-author">
+                <img src="./images/woman-face.png" alt="face">
+                <div class="author">
+                    <p class="author-name">Sarah Doe</p>
+                    <p class="company-name">CEO, COMPANY.COM</p>
+                </div>
+                <div class="quote-triangle"></div>
+                <div class="blue-quote">
+                    <img src="./images/“.png" alt="``">
+                    <div class="quote">Praesent tristique mi erat, nec tristique nisl faucibus tristique mi
+                        erat</div>
+                    <div class="text-quote">Fusce ut nunc sapien. Pellentesque vestibulum molestie euismod. Praesent
+                        molestie, lectus a suscipit hendrerit, nisl metus lobortis felis, eget hendrerit.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blue-section">
+        <div class="left-bar">
+            <img src="./images/1_umaIagxi5ziAKHQ7s2H-zw.png" alt="img" class="under-img">
+            <img src="./images/Computer-Programming2.png" alt="img" class="above-img">
+            <img src="./images/keyboard_&_mouse_1.png" alt="keyboard" class="keyboard">
+        </div>
+        <div class="right-bar">
+            <div class="right-bar-items">
+                <img src="./images/airplane.png" alt="plane" class="icons">
+                <p>Where does it</p>
+                <div>Praesent lectus turpis, egestas fringilla ligula in, ultrices eleifend mauris. Fusce ac vulputate
+                    turpis, a tincidunt neque. Donec luctus metus.</div>
+            </div>
+            <div class="right-bar-items">
+                <img src="./images/compas.png" alt="compas" class="icons">
+                <p>Where does it</p>
+                <div>Praesent lectus turpis, egestas fringilla ligula in, ultrices eleifend mauris. Fusce ac vulputate
+                    turpis, a tincidunt neque. Donec luctus metus.</div>
+            </div>
+            <div class="right-bar-items">
+                <img src="./images/globus.png" alt="globus" class="icons">
+                <p>Where does it</p>
+                <div>Praesent lectus turpis, egestas fringilla ligula in, ultrices eleifend mauris. Fusce ac vulputate
+                    turpis, a tincidunt neque. Donec luctus metus.</div>
+            </div>
+        </div>
+    </section>
+    <section id="our-team">
+        <h2>Our Team</h2>
+        <div class="container">
+            <div class="our-team-items">
+                <img src="./images/woman-face.png" alt="face">
+                <p>Sarah Dou</p>
+                <p class="who-is">CEO</p>
+                <p class="team-description">Praesent lectus turpis, egestas fringilla ligula in, ultrices eleifend
+                    mauris.</p>
+                <p class="line"></p>
+                <p class="contacts"><i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-skype"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                    <i class="fab fa-vimeo-v"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-instagram"></i></p>
+            </div>
+            <div class="our-team-items">
+                <img src="./images/man-face.jpg" alt="face">
+                <p>John Dou</p>
+                <p class="who-is">CEO</p>
+                <p class="team-description">Praesent lectus turpis, egestas fringilla ligula in, ultrices eleifend
+                    mauris.</p>
+                <p class="line"></p>
+                <p class="contacts"><i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-skype"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                    <i class="fab fa-vimeo-v"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-instagram"></i></p>
+            </div>
+            <div class="our-team-items">
+                <img src="./images/woman-face2.jpg" alt="face">
+                <p>Jane Dou</p>
+                <p class="who-is">CEO</p>
+                <p class="team-description">Praesent lectus turpis, egestas fringilla ligula in, ultrices eleifend
+                    mauris.</p>
+                <p class="line"></p>
+                <p class="contacts"><i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-skype"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                    <i class="fab fa-vimeo-v"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-instagram"></i></p>
+            </div>
+            <div class="our-team-items">
+                <img src="./images/man-face2.jpg" alt="face">
+                <p>Mike Dou</p>
+                <p class="who-is">CEO</p>
+                <p class="team-description">Praesent lectus turpis, egestas fringilla ligula in, ultrices eleifend
+                    mauris.</p>
+                <p class="line"></p>
+                <p class="contacts"><i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-skype"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                    <i class="fab fa-vimeo-v"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-instagram"></i></p>
+            </div>
+
+
+        </div>
+
+    </section>
+    <section id="technologis">
+        <img src="./images/Layer_340.png" alt="img">
+        <img src="./images/Layer_341.png" alt="img">
+        <img src="./images/Layer_342.png" alt="img">
+        <img src="./images/Layer_343.png" alt="img">
+        <img src="./images/Layer_344.png" alt="img">
+    </section>
+    <section id="contact-us">
+        <h2>Get in tuch!</h2>
+        <form class="container-form">
+            <input id="inputName" placeholder="Name*" type="text">
+            <img src="./images/man-icon.png" alt="man" class="man-icon">
+            <input id="inputEmail" placeholder="E-Mail*" type="text">
+            <img src="./images/message-icon.png" alt="message" class="message-icon">
+            <textarea id="inputMessage" placeholder="Message" cols="30" rows="10"></textarea>
+            <div class="button-section">
+                <button onclick="sendMessage(event)">SEND MESSAGE</button><button onclick="clearInputs(event)">CLEAR<img
+                        src="./images/cross.png" alt="cross"></button>
+            </div>
+        </form>
+    </section>
+    <section id="blue-section2">
+        <div class="blue-section2-square">
+            <div class="blue-section2-triangle"></div>
+            <img src="./images/bird.png" alt="bird">
+
+        </div>
+        <p class="blue-section-text"><span class="italian-text">@qwerty </span>Elit risus, placerat vitae metus a,
+            elementum tristique ligula.
+            Suspendisse...<span class="italian-text"> By Alex</span>
+            <br><span class="italian-text small">about 5 minutes ago</span></p>
+        <p>
+            <span class="symbol">
+                &lt;</span> <span class="symbol">&gt;
+            </span>
+        </p>
+
+    </section>
+    <section id="before-footer">
+        <div class="before-footer-items">
+            <img class="logo-response" src="./images/Shape_158_copy_5.png" alt="logo">
+            <div class="logo-and-title">
+                <h3>MARINE</h3>
+            </div>
+            <div class="item-text">
+                Sed ullamcorper nisi risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus.
+            </div>
+        </div>
+        <div class="before-footer-items">
+            <p class="before-footer-title">Recent Posts</p>
+            <div class="block-with-border">
+                dec 15, 2012 | By admin<br>
+                <span class="italian-text">Sed ullamcorper nisi risus</span><br>
+                <div>Orci varius natoque penatibus et magnis dis parturient montes, nascetur</div>
+
+            </div>
+            <div data-border class="block-with-border">
+                dec 15, 2012 | By admin<br>
+                <span class="italian-text">Sed ullamcorper nisi risus</span><br>
+                <div>Orci varius natoque penatibus et magnis dis parturient montes, nascetur</div>
+
+            </div>
+        </div>
+        <div class="before-footer-items">
+            <p class="before-footer-title">Contacts</p>
+            <div class="container-contacts">
+                <div><img src="./images/Location_copy.png" alt="img">Phoenix Inc <br>
+                    Australia 1298 Victoria <br>
+                    Little New York Str. <br>
+                    PO Box 123777
+                </div>
+                <div><img data-mobile src="./images/Mobile_copy.png" alt="img">tel: +123 (777) 123-43-12<br>
+                    fax: +123 (777) 098-45-23</div>
+                <div><img data-mail src="./images/Mail_copy.png" alt="img">marine@marine.com</div>
+            </div>
+        </div>
+        <div class="before-footer-items last-item">
+            <p data-newsletter class="before-footer-title">Newsletter Signup</p>
+            <div class="item-text">Vestibulum suscipit leo dolor. Aenean pellentesque placerat</div>
+            <select>
+                <label>
+                    <option></option>
+                </label>
+                <option>11111</option>
+                <option>22222</option>
+            </select>
+            <p class="before-footer-title">Follow Us</p>
+            <div class="item-text"><i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-skype"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-vimeo-v"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-instagram"></i></div>
+        </div>
+    </section>
+    <footer>
+        <div>&#169; Marine 2013. All rights reserved</div>
+    </footer>
+</body>
+
+</html>
